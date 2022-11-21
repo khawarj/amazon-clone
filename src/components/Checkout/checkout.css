@@ -1,0 +1,51 @@
+.checkout__container{
+    display: flex;
+}
+
+.checkout__cart{
+    flex-basis: 70%;
+    background-color: white;
+    margin: 15px;
+
+}
+
+.checkout__subtotal{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 15px;
+    padding: 20px;
+}
+
+.checkout__checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkout__checkbox > input[type=checkbox]{
+    margin-right: 6px
+}
+
+.checkout__btn{
+    margin: 20px 0;
+    width: 100%;
+}
+
+
+.checkoutProduct{
+    display: flex;
+    border-bottom: 1px solid rgb(234, 237, 237);
+    margin: 15px;
+    padding: 15px;
+}
+
+.checkoutProduct__image{
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct__info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
